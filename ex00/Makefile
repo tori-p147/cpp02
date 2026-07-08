@@ -4,10 +4,10 @@ SRC_DIR = src
 INC_DIR = includes
 BLD_DIR = obj
 
-CXX        = c++
-CXXFLAGS    = -Wall -Wextra -Werror -std=c++98 -pedantic
+CXX = c++
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
 RM = rm -rf
-INCLUDES  = -I$(INC_DIR)
+INCLUDES = -I$(INC_DIR)
 
 SRC_FILES = main.cpp \
 		Fixed.cpp
